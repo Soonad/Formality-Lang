@@ -1,0 +1,27 @@
+{
+  "name": "new-formality-lang",
+  "version": "0.1.0",
+  "description": "Formality-Lang is a set of syntax sugars that transpile to [Formality-Core](https://github.com/moonad/formality-core). It extends that minimal core with user-friendly notations such as string literals and datatype declarations.",
+  "main": "FormalityLang.js",
+  "bin": {
+    "fm": "bin/fm.js",
+    "fmrun": "bin/fmrun.js",
+    "fmjs": "bin/fmjs.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moonad/formality-lang.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moonad/formality-lang/issues"
+  },
+  "homepage": "https://github.com/moonad/formality-lang#readme",
+  "dependencies": {
+    "formality-core": "^0.2.19"
+  }
+}
